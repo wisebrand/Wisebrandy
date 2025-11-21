@@ -1,0 +1,82 @@
+/* Basic reset and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+/* Container for the login box */
+.login-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Heading style */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Grouping for label and input */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Style for the labels */
+label {
+    display: block; /* Makes the label take up its own line */
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Style for the input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+/* Style for the button */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the message text */
+#message {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* To hide the message initially */
+.hidden {
+    display: none;
+}
